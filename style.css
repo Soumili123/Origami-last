@@ -1,0 +1,120 @@
+h1{
+    color:rgb(133, 5, 5);
+  
+  
+   
+}
+
+h1:hover{
+    color: rgb(245, 0, 0);
+}
+
+h2{
+    color:crimson;
+}
+
+i{
+    font-size: 22px;
+}
+
+li{
+    font-size: 20px;
+    color: rgb(48, 9, 85);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    transform: scale(1.2);
+    color: rgb(182, 182, 182);
+}
+
+.grid{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+   margin-bottom: 70px;
+   margin-top: 70px;
+   }
+
+   .grid img{
+       border: 2px solid black;
+       border-radius: 50px;
+       justify-content: space-around;
+   }
+
+   .grid img:hover{
+    transform: scale(1.2);
+   
+   }
+
+   .site-description{
+    display: flex;
+flex-direction:column ;
+justify-content: first baseline;
+}
+
+   
+   .origami{
+       border-radius: 10px;
+    background-color: rgb(255, 221, 238);
+
+       width: 500px;
+       font-family: 'Times New Roman', Times, serif;
+      
+       flex-shrink: inherit;
+       -ms-flex-align: center;
+       border: crimson;
+       padding: 20px;
+
+       position: relative;
+   }
+
+   .origami:hover p{
+       opacity: 1;
+       transform: scale(1.2);
+   }
+   
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 255, 251);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: brown;
+}
+
+.Inst{
+  padding-left: 200;
+    border-radius: 10px;
+   background-color: rgb(255, 212, 212);
+   width: 1000px;
+   border: lightslategrey;
+   margin-left: 3000;
+   justify-self: center;
+}
+
+body{
+    background-color: rgb(205, 220, 240);
+    margin: 0px;
+   
+    
+   
+}
+   
+  
+   
+    
+
+
+a:link{
+    color: rgb(8, 185, 255);
+}
+
+a:visited{
+    color: rgb(0, 0, 0);
+}
